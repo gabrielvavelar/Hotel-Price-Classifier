@@ -6,9 +6,8 @@
  <a href="#-acesso-a-aplicação">Acesso a aplicação</a>  • 
  <a href="#-desenvolvimento">Desenvolvimento</a>  • 
  <a href="#-execução-local">Execução</a>  • 
-  <a href="#-arquitetura-aws">Arquitetura AWS</a>  •
- <a href="#-dificuldades">Dificuldades</a>  •
- <a href="#-autores">Autores</a> 
+ <a href="#-arquitetura-aws">Arquitetura AWS</a>  •
+ <a href="#-autor">Autor</a> 
 </p>
 
 ## 📜 Descrição
