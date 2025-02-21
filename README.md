@@ -1,14 +1,6 @@
-# Hotel Price Classifier
+<h1 align="center"> 🏢 Hotel Price Classifier </h1>
 
-<p align="center">
- <a href="#-descrição">Descrição</a>  •
- <a href="#-funcionalidades">Funcionalidades</a>  • 
- <a href="#-acesso-a-aplicação">Acesso a aplicação</a>  • 
- <a href="#-desenvolvimento">Desenvolvimento</a>  • 
- <a href="#-execução-local">Execução</a>  • 
- <a href="#-arquitetura-aws">Arquitetura AWS</a>  •
- <a href="#-autor">Autor</a> 
-</p>
+***
 
 ## 📜 Descrição
 
@@ -45,21 +37,7 @@ Este projeto possui diversas funcionalidades importantes, que permitem a classif
 - /api/v1/predict: Endpoint POST que recebe um JSON com os dados da reserva e retorna a classificação (faixa de preço).
 - /: Endpoint GET que retorna uma mensagem de boas-vindas.
 
-
-## 🧑‍💻 Acesso a Aplicação
-
-**1. Para acesso a aplicação, copie e cole no navegador:**
-- Página inicial:
-```
-http://34.225.156.10
-```
-- Página para fazer predições:
-```
-http://34.225.156.10/docs
-```
-
-## 🚀 Desenvolvimento
-**📂 Estrutura de pastas**
+## 📂 Estrutura do Repositório
 
  ```
 ├── src
@@ -87,21 +65,9 @@ http://34.225.156.10/docs
 │   │   │   └── requeriments.txt                  # Lista de dependências do Python.
 └───────────────────────────────────────────────────────────────────────────────────────────────────────────
 
-
  ```
-**⚙️ Tecnologias Utilizadas**
-- Python: Linguagem de programação principal.
-- FastAPI: Framework para desenvolvimento da API.
-- AWS SageMaker: Serviço da AWS para treinamento e deploy de modelos de machine learning.
-- AWS S3: Armazenamento de dados e modelos.
-- AWS RDS: Banco de dados relacional para armazenamento dos dados.
-- Amazon EC2: Instâncias de computação na nuvem.
-- Amazon ECR: Repositório de imagens Docker.
-- Docker: Ferramenta de containerização.
-- Docker Compose: Orquestração de containers.
 
-
-## 💻 Execução local
+## 🚀 Como Usar 
 
 **Pré-requisitos** : 
 - `Conta na AWS com permissões para SageMaker, S3, EC2, ECR e RDS`
@@ -177,15 +143,16 @@ python main.py
 docker-compose up
  ```
 
-- **Acesse a aplicação localmente:**
-Abra o navegador e vá para http://localhost:8000/docs
-
+- **Acesso à API:**
+ ```
+http://localhost:8000/docs
+ ```
 
 ## 🌐 Arquitetura AWS
 A arquitetura AWS deste projeto integra vários serviços da AWS para criar uma solução de machine learning e predição. A utilização de SageMaker, S3, RDS, FastAPI, Docker e EC2 permite que a aplicação seja escalável, eficiente e fácil de gerenciar. Cada componente foi escolhido para otimizar o desempenho e a escalabilidade, garantindo que o sistema possa lidar com grandes volumes de dados e fornecer predições em tempo real.
 
 <img src="assets/Architecture.jpg" height="400" >
 
-## 👤 Autor
+## 👨‍💻 Autor
 - [Gabriel Venancio de Avelar](https://github.com/gabrielvavelar)
 
