@@ -111,7 +111,7 @@ http://34.225.156.10/docs
 
 - **Clone o repositório:**
 ```
-git clone https://github.com/gabrielvavelar/hotel-price-classifier.git
+git clone https://github.com/gabrielvavelar/Hotel-Price-Classifier.git
  ```
 
 - **Não esqueça de preencher os arquivos .env com o que é solicitado.**
