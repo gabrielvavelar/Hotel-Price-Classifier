@@ -1,0 +1,11 @@
+version: '3'  # Versão do arquivo de configuração do Docker Compose
+
+services:
+  app:
+    build:  # Configuração de construção da imagem Docker
+      context: .  # Diretório de contexto para a construção da imagem (diretório atual)
+      dockerfile: Dockerfile  # Nome do Dockerfile a ser usado para construir a imagem
+    ports:
+      - "8000:8000"  # Mapeamento de portas (porta 8000 do host para porta 8000 do container)
+    env_file:
+      - .env  # Arquivo de variáveis de ambiente a ser usado no container

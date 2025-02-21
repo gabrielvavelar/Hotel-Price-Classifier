@@ -1,0 +1,11 @@
+sagemaker
+numpy
+scipy
+scikit-learn
+pandas
+ipykernel
+awswrangler
+sqlalchemy
+pymysql
+seaborn
+python-dotenv

@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+sagemaker
+scikit-learn==1.2.1
+python-dotenv
